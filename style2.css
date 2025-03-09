@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.bandeau-haut {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.bandeau-haut h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.bandeau-haut p {
+    margin: 5px 0 0;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: white;
+    padding: 15px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #00AEEF; 
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+
+.look-section {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.look-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.look-images img {
+    width: 30%; 
+    height: auto;
+}
