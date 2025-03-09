@@ -1,0 +1,23 @@
+.bandeau {
+    font-size: 26px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+
+.haut {
+    top: 0;
+    position: fixed;
+z-index: 100;
+}
+
+.bas {
+    font-size: 19px;
+    bottom: 0;
+    position: fixed;
+
+}
+
