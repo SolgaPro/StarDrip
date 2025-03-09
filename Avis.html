@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Avis</title>
+    <link rel="stylesheet" href="style3.css">
+    <div class="bandeau haut">StarDrip</div>
+<div class="bandeau bas">Revenir sur la page d'acceuil en cliquant : <a href="https://solgapro.github.io/StarDrip/Index">ici</a></div>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f8f8f8; padding: 20px; }
+        .container { max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .review { margin-bottom: 10px; padding: 10px; border-bottom: 1px solid #ddd; }
+        .stars { color: gold; }
+        textarea, button { width: 100%; margin-top: 10px; padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+        button { background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+<br><br><br>	
+<h1>Avis Clients</h1>
+        
+        <div class="review">
+            <p>"Super service, très satisfait !"</p>
+            <p class="stars">★★★★★</p>
+        </div>
+        <div class="review">
+            <p>"Équipe au top, je recommande !"</p>
+            <p class="stars">★★★★★</p>
+        </div>
+        <div class="review">
+            <p>"Très professionnel et efficace."</p>
+            <p class="stars">★★★★★</p>
+        </div>
+        
+        <h2>Laissez un avis :</h2>
+        <textarea id="avis" placeholder="Écrivez votre avis..."></textarea>
+        <button onclick="alert('Votre avis a été bien enregistré !')">Envoyer</button>
+    </div>
+</body>
+</html>
